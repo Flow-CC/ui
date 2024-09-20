@@ -203,7 +203,7 @@ local Luminosity = {
         Debug = false;
     };
     ColorScheme = {
-        Primary = Color3.fromRGB(0, 0, 0);
+        Primary = Color3.fromRGB(50, 50, 50);
         Text = Color3.new(255, 255, 255);
     };
 }
@@ -333,7 +333,7 @@ local function CreateOptions(Frame)
             Utility.new("TextButton", {
                 Name = "Button",
                 AnchorPoint = Vector2.new(1, 0.5),
-                BackgroundColor3 = Color3.fromRGB(50, 55, 60),
+                BackgroundColor3 = Color3.fromRGB(45, 50, 55),
                 Position = UDim2.new(1, 0, 0.5, 0),
                 Size = UDim2.new(0.2, 25, 0, 20),
                 Text = ButtonText and tostring(ButtonText) or "Button",
