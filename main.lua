@@ -269,7 +269,7 @@ local function CreateOptions(Frame)
         local Container = Utility.new("Frame", {
             Name = "Switch",
             Parent = typeof(Frame) == "Instance" and Frame or Frame(),
-            BackgroundTransparency = 1,
+            BackgroundTransparency = 0.1,
             Size = UDim2.new(1, 0, 0, 25),
         }, {
             Utility.new("TextLabel", {
